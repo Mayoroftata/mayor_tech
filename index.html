@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <title>Join Tech innovation</title>
+</head>
+<style>
+    a:hover{
+        font-weight: bolder;
+        color: blue;
+    }
+    #Logo h1:hover{
+        color: blue;
+        font-weight: bolder;
+        cursor: pointer;
+
+    }
+</style>
+<body>
+    <header class="shadow bg-white d-flex justify-content-between align-content-center px-3 py-1">
+        <div id="Logo" class="py-3">
+            <h1>MayorTech</h1>
+        </div>
+        <div class="d-lg-flex d-none">
+            <ul id="nav" class="list-unstyled d-flex gap-4 py-3 pe-2 fs-4 ">
+                <li><a class="text-decoration-none" href="">Home</a></li>
+                <li><a class="text-decoration-none" href="">Service</a></li>
+                <li><a class="text-decoration-none" href="">About Us</a></li>
+            </ul>
+        </div>
+        <div class="d-lg-none">
+            <img src="./img/hamburger-menu-svgrepo-com.svg" width="50" alt="">
+        </div>
+    </header>
+
+    <! --1st section on landing page -->
+    <section class="d-lg-flex d-sm-block my-5">
+        <div>
+            <h1 class="px-4">We’re In The Business Of Building World-Class Tech Talents</h1>
+        </div>
+        <div>
+            <div class="w-100 d-lg-block d-none">
+                <p class="fs-4 text-center">Shortage of skilled tech professionals is a global problem. We are training people in tech and outsourcing them to tech companies.</p>
+            </div>
+            <div class="d-lg-flex d-md-flex d-sm-inline-block gap-3 justify-content-center px-3">
+                <button class="btn btn-primary rounded-pill fw-bold btn-lg w-100 mt-3">Veiw Communities</button>
+            
+                <!-- using a Button trigger modal -->
+                <button type="button" class="btn btn-outline-primary rounded-pill fw-bold btn-lg w-100 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Start your Journey
+                </button>
+            
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Create an account and join us today</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div>
+                                <form action="">
+                                    <input class="form-control form-control-lg my-2 rounded" type="text" placeholder="Surname" aria-label="surname">
+                                    <input class="form-control form-control-lg my-2 rounded" type="text" placeholder="Firstname" aria-label="firstname">
+                                    <input class="form-control form-control-lg my-2 rounded" type="text" placeholder="Othername" aria-label="othername">
+                                    <input class="form-control form-control-lg my-2 rounded" type="email" placeholder="Enter Email" aria-label="email">
+                                    <input class="form-control form-control-lg my-2 rounded" type="text" placeholder="Enter preferred Username" aria-label="username">
+                                    <input class="form-control form-control-lg my-2 rounded" type="password" placeholder="Enter password" aria-label="password1">
+                                    <input class="form-control form-control-lg my-2 rounded" type="password" placeholder="Re-enter password" aria-label="password2">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 2nd section cards -->
+    <section class="px-lg-5 px-3 py-5 container-fluid bg-light">
+        <div class="row gap-5 justify-content-center">
+            <div class="col-lg-2 col-6 col-md-4">
+                <img src="./img/artificial-intelligenceai-svgrepo-com.svg" width="180" alt="" class="shadow">
+            </div>
+            <div class="col-lg-2 col-6 col-md-4">
+                <img src="./img/programming-code-application-development-computer-svgrepo-com.svg" width="180" alt="" class="shadow">
+            </div>
+            <div class="col-lg-2 col-6 col-md-4">
+                <img src="./img/programming-code-svgrepo-com.svg" width="180" alt="" class="shadow">
+            </div>
+            <div class="col-lg-2 col-6 col-md-4">
+                <img src="./img/senior-woman-playing-a-computer-inspiration-svgrepo-com.svg" width="180" alt="" class="shadow">
+            </div>
+        </div>
+    </section>
+    <!-- 3rd section a little about us -->
+    <section class="d-flex my-5 py-5 gap-5 ">
+        <div class="w-100 text-center d-none d-lg-flex">
+            <img src="./img/programming-svgrepo-com1.svg" width="500" alt="" class="">
+        </div>
+        <div>
+            <div class="text-center mt-5 pt-5">
+                <h1 class="fw-bolder">WHO WE ARE</h1>
+            </div>
+            <div class="px-5 my-5 fs-5 w-100 text-center">
+                <p>Learnable, an initiative of Genesys Tech Hub, is a 6-9 months internship program designed to raise world class young talents in the tech and innovation industry. We primarily educate and groom software developers and designers, preparing them for the industry.</p>
+            </div>
+        </div>
+    </section>
+    <!-- footer here -->
+    <footer class="bg-black">
+        <div class="d-lg-flex d-block text-center bg-primary mt-2 justify-content-between d">
+            <div class="mt-3 text-light">
+                <h4>Get connected with us on social networks:</h4>
+            </div>
+            <div class="mt-3">
+                <ul class="d-lg-flex d-block justify-content-center gap-3 list-unstyled">
+                    <li><a href="#"><img src="./img/facebook-svgrepo-com.svg" width="35"></a></li>
+                    <li class="mt-2"><a href="#"><img src="./img/github-142-svgrepo-com.svg" alt="" width="35"></a></li>
+                    <li class="mt-2"><a href="#"><img src="./img/instagram-svgrepo-com.svg" alt="" width="35"></a></li>
+                    <li class="mt-2"><a href="#"><img src="./img/twitter-svgrepo-com.svg" alt="" width="35"></a></li>
+                    <li class="mt-2"><a href="#"><img src="./img/whatsapp-svgrepo-com.svg" alt="" width="35"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between bg-dark px-4 py-4 text-light">
+            <div class="w-25 d-none d-lg-block">
+                <h3>MayorTech</h3>
+                <p class="w-50">We aim at raising world class young talents in the tech and innovation industry.</p>
+            </div>
+            <div class="">
+                <h3>Contact</h3>
+                <div>
+                    <a href="mailto:objmak@gmail.com" target="_blank" class=" d-block text-decoration-none"><img src="./img/gmail-svgrepo-com.svg" alt="" width="35">Mail us here</a>
+                    <a href="tel:09031270936" class="text-decoration-none"><img src="./img/phone-call-svgrepo-com.svg" alt="" width="35">Call us here</a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-black text-center py-4"> © 2024 Copyright: <a class="text-white text-decoration-none" href="./index.html">MayorTech</a>
+        </div>
+    </footer>
+</body>
+<script src="./bootstrap.js"></script>
+</html>
